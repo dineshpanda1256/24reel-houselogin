@@ -1,10 +1,10 @@
 import React from 'react'
-import Home from './pages/Home'
+import PostJob from './pages/PostJob/PostJob'
 
 export default function App() {
   return (
     <div>
-      <Home />
+    <PostJob/>
     </div>
   )
 }
