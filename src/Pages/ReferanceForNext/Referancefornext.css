@@ -1,0 +1,33 @@
+#ReferancefornextMainRow {
+  background-color: #0f1025;
+  height: 100vh;
+  color: aliceblue;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+#ReferancefornextMainCol {
+  display: flex;
+  justify-content: center;
+  /* padding-top: 10rem; */
+}
+.ReferancefornextMainRowList {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.ReferancefornextList {
+  background-color: #f112a5;
+  color: aliceblue;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  border-radius: 0.2rem;
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+}
