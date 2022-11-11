@@ -1,0 +1,57 @@
+#aspd1 {
+    padding-top: 2rem;
+}
+#aspd2 {
+    position: relative;
+}
+#aspd3 {
+    color: white;
+    position: absolute;
+    right: 1.5rem;
+    top: 0.5rem;
+}
+#aspd4 {
+    background: #818890;
+    border-radius: 1.5rem;
+    width: 100%;
+    height: 100%;
+}
+#aspd5 {
+    margin: auto;
+}
+#aspd6 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: white;
+}
+#aspd7 {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: white;
+}
+#aspd8 {
+    background: #0F1025;
+    padding-bottom: 2rem;
+}
+#aspd9 {
+    transform: rotate(90deg);
+    height: 1.5rem;
+    width: 1.5rem;
+    color: #FFEC5F;
+}
+#aspd10 {
+    display: flex;
+    justify-content: center;
+}
+#aspd11 {
+    width: 90%;
+    font-size: 1.1rem;
+    font-weight: 400;
+    background: #1931BB;
+    border: none;
+    margin-bottom: 0.5rem;
+}
+#aspd12{
+    background-color: white;
+    border-radius: 1rem;
+}

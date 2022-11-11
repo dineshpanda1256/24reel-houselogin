@@ -1,0 +1,33 @@
+#dtable1 {
+  background-color: white;
+  color: #1931bb;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+}
+
+td {
+  border: none;
+}
+th {
+  border: none;
+}
+tr {
+  border: none;
+}
+#dtable2 {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+#dtable3{
+    display: flex;
+    justify-content: flex-end;
+}
+#datable4{
+  font-size: 2rem;
+  color: #f112a5;
+}
+#dtable5{
+  margin-top: 1rem;
+}

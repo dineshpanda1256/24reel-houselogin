@@ -1,50 +1,46 @@
-import React, {useState} from "react";
-import "./PostJobModal.css";
+import React from 'react'
+import "./AddMemberModal.css";
 import Button from "react-bootstrap/Button";
-import {IoMdClose} from "react-icons/io";
-
 import Modal from "react-bootstrap/Modal";
 import { Col, Container, Form, Row } from "react-bootstrap";
 
-export default function PostJobModal(props) {
-  const [show, setShow] = useState(false);
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
-
-
+export default function AddMemberModal(props) {
   return (
-    <div >
-      <Modal  
+    <div>
+         <Modal  
         {...props}
         size="md"
         aria-labelledby="contained-modal-title-vcenter"
         centered
       >
-        <Modal.Body id="post2">
+        <Modal.Body id="addmember2">
           <Form.Group className="mb-3" controlId="formBasicEmail">
-            <Form.Label id="post3">Job title</Form.Label>
+            <Form.Label id="addmember3">Name</Form.Label>
             <Form.Control type="text" placeholder="" />
           </Form.Group>
 
           <Form.Group className="mb-3" controlId="formBasicEmail">
-            <Form.Label id="post3">Experience</Form.Label>
+            <Form.Label id="addmember3">Contact number</Form.Label>
             <Form.Control type="text" placeholder="" />
           </Form.Group>
           <Form.Group className="mb-3" controlId="formBasicEmail">
-            <Form.Label id="post3">CTC</Form.Label>
+            <Form.Label id="addmember3">Address</Form.Label>
             <Form.Control type="text" placeholder="" />
           </Form.Group>
-          <Form.Group className="mb-3">
-            <Form.Label id="post3">Disabled select menu</Form.Label>
-            <Form.Select>
-              <option>24 Options</option>
-            </Form.Select>
+          <Form.Group className="mb-3" controlId="formBasicEmail">
+            <Form.Label id="addmember3">Position</Form.Label>
+            <Form.Control type="text" placeholder="" />
           </Form.Group>
+          <Form.Group className="mb-3" controlId="formBasicEmail">
+            <Form.Label id="addmember3">Age</Form.Label>
+            <Form.Control type="text" placeholder="" />
+          </Form.Group>
+          
           <Container fluid>
             <Row>
                 {" "}
-                <Button  onClick={props.onHide} id="post1"  type="submit">
-                  Post
+                <Button  onClick={props.onHide} id="addmember1"  type="submit">
+                  Add
                 </Button>
             </Row>
           </Container>
@@ -53,5 +49,5 @@ export default function PostJobModal(props) {
         {/* <Button onClick={props.onHide}>Close</Button> */}
       </Modal>
     </div>
-  );
+  )
 }

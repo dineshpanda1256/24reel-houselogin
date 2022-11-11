@@ -1,0 +1,54 @@
+#postscreen1 {
+  background-color: #0f1025;
+  padding-top: 2rem;
+  padding-bottom: 11rem;
+  height: 100vh;
+}
+#postscreen2 {
+  background-color: #f314a7;
+}
+#postscreen3 {
+  background-color: white;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+#postscreen4{
+    display: flex;
+    justify-content: center;
+}
+#post_table1 {
+    background-color: white;
+    color: #1931bb;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+  }
+  
+  td {
+    border: none;
+  }
+  th {
+    border: none;
+  }
+  tr {
+    border: none;
+  }
+  #post_table2 {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+  #post_table3{
+      display: flex;
+      justify-content: flex-end;
+  }
+  #post_table4{
+    font-size: 2rem;
+    color: #f112a5;
+  }
+  #post_table5{
+    background-color: #1931BB;
+    border: none;
+  }
+  
+  
