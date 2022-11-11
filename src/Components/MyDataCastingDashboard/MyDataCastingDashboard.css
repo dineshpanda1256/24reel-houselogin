@@ -28,3 +28,30 @@
   line-height: 1rem;
   color: #ffffff;
 }
+
+/* modal */
+#closeIcon {
+  font-size: 1.5rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+#viewModalHeader {
+  background: #0f1025;
+  display: flex;
+  justify-content: flex-end;
+  border: none;
+}
+
+#viewModalBody {
+    background: #0f1025;
+    color: #fff;
+    border: none;
+    padding-bottom: 2rem;
+}
+
+#viewModalFooter {
+    background: #0f1025;
+    color: #fff;
+    border: none;
+}
