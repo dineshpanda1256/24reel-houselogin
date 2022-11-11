@@ -1,0 +1,132 @@
+#aspd1 {
+  padding-top: 2rem;
+}
+#aspd2 {
+  position: relative;
+}
+#aspd3 {
+  color: white;
+  position: absolute;
+  right: 1.5rem;
+  top: 0.5rem;
+}
+#aspd4 {
+  /* background: #818890; */
+  /* border-radius: 1.5rem; */
+  width: 90%;
+  height: 100%;
+}
+#aspd5 {
+  margin: 1rem;
+}
+#aspd6 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+}
+#aspd7 {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: white;
+}
+#aspd8 {
+  background: #0f1025;
+  padding-bottom: 2rem;
+}
+#aspd9 {
+  transform: rotate(90deg);
+  height: 1.5rem;
+  width: 1.5rem;
+  color: #ffec5f;
+}
+#aspd10 {
+  display: flex;
+  justify-content: center;
+}
+#aspd11 {
+  width: 90%;
+  font-size: 1.1rem;
+  font-weight: 400;
+  background: #1931bb;
+  border: none;
+  margin-bottom: 0.5rem;
+  color: #ffec5f;
+}
+#edci {
+  background-color: aliceblue;
+  border-radius: 1rem;
+  height: 20rem;
+}
+#edci2 {
+  padding: 3rem;
+}
+#edci3 {
+  padding-left: 3rem;
+}
+.nav-tabs .nav-link {
+  color: #ffec5f;
+  font-size: 0.9rem;
+  background-color: #1931bb;
+  width: 10rem;
+  height: 3rem;
+  margin-right: 0.5rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  padding: 0rem;
+}
+
+.nav-tabs .nav-link.active {
+  color: #ffec5f;
+  background-color: #f112a5;
+}
+
+.nav-tabs {
+  --bs-nav-tabs-border-width: none;
+  --bs-nav-tabs-border-color: none;
+  --bs-nav-tabs-border-radius: none;
+}
+/* .nav-tabs nav {
+  overflow-x: auto;
+} */
+#shoot1 {
+  background-color: #0f1025;
+  padding-top: 1rem;
+  padding-bottom: 4.8rem;
+}
+#shoot2 {
+  color: white;
+  margin-top: 1rem;
+}
+#shoot3 {
+  background: white;
+  color: black;
+  width: 100%;
+  border-radius: 0.6rem;
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+#shoot4 {
+  width: 98%;
+  height: 91%;
+}
+#shoot5 {
+  width: 90%;
+  border: none;
+  background-color: #1931bb;
+  margin-top: 0.5rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+}
+#shoot6 {
+  transform: rotate(90deg);
+  height: 1.5rem;
+  width: 1.5rem;
+  color: #ffec5f;
+}
+#shoot7 {
+  display: flex;
+  justify-content: center;
+}
