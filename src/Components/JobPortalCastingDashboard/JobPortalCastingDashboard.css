@@ -1,0 +1,31 @@
+#addIcon {
+    font-size: 2rem;
+    color: #f112a5;
+    margin-bottom: 1rem;
+  }
+  
+  #buttons {
+    margin-right: 0.5rem;
+    width: 5rem;
+    margin-bottom: 0.2rem;
+    background-color: #1931bb;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    color: #ffffff;
+  }
+  
+  #removeBtn {
+    margin-right: 0.5rem;
+    margin-bottom: 0.2rem;
+    background-color: #ed1c24;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    color: #ffffff;
+  }
+  

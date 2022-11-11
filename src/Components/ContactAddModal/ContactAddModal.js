@@ -14,7 +14,7 @@ export default function ContactAddModal() {
         centered
         style={{color: '#fefefe'}}
       >
-        <Modal.Header closeButton 
+        <Modal.Header 
         style={{backgroundColor: '#0F1025', color: '#fefefe'}}>
           <Modal.Title id="contained-modal-title-vcenter">
             Add Contact

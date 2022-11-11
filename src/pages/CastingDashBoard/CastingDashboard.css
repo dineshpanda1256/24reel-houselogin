@@ -1,0 +1,45 @@
+#mainContainer {
+  background-color: #0f1025;
+  height: 100vh;
+  padding: 2rem 0rem;
+}
+
+#companyLogoImg {
+  width: 8rem;
+  height: 9rem;
+  margin-right: 1rem;
+}
+
+#modelingAndCastingTxtDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+#whiteDiv {
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+#myDataBtn {
+  width: 10rem;
+  background-color: #1931bb;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: none;
+}
+
+#rightArrowIcon {
+  color: yellow;
+  font-size: 1.5rem;
+}
