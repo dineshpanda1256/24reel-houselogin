@@ -8,7 +8,7 @@
     border-radius: 1rem;
     margin-top: 2rem;
 }
-#post_table1 {
+#response_table1 {
     background-color: white;
     color: #1931bb;
     font-family: "Poppins";
@@ -16,7 +16,7 @@
     font-weight: 500;
   }
   
-  td {
+  /* td {
     border: none;
   }
   th {
@@ -24,25 +24,28 @@
   }
   tr {
     border: none;
-  }
-  #post_table2 {
+  } */
+  #response_table2 {
     overflow-x: auto;
     overflow-y: hidden;
     white-space: nowrap;
   }
-  #post_table3{
+  #response_table3{
       display: flex;
       justify-content: flex-end;
   }
-  #post_table4{
-    font-size: 2rem;
+  #response_table4{
+    font-size: 1.7rem;
     color: #f112a5;
   }
-  #post_table5{
+  #response_table5{
     background-color: #1931BB;
     border: none;
   }
-  #post_table6{
+  #response_table6{
     display: flex;
     justify-content: flex-end;
+  }
+  #response_table7{
+    border: none;
   }

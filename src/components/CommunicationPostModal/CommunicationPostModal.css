@@ -1,0 +1,18 @@
+#communicationpost1{
+    width: 100%;
+    background-color: #1931BB;
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+    border: none;
+}
+#communicationpost2{
+     background-color: #0F1025;
+     border-radius: 0.5rem;
+}
+#communicationpost3{
+    color: #FFFFFF;
+}
+#communicationpost4{
+    color: #FFFFFF;
+    font-size: 1rem;
+}

@@ -3,9 +3,9 @@ import PostJobModal from '../../Components/PostJobModal/PostJobModal';
 import Button from 'react-bootstrap/Button';
 import AddMemberModal from '../../Components/AddMemberModal/AddMemberModal';
 
-export default function PostJob() {
+export default function AllModal() {
     const [modalShow, setModalShow] = React.useState(false);
-    const [modal1, setModal2] = React.useState(false);
+    const [modal2, setModal2] = React.useState(false);
 
   return (
     <div>
@@ -16,7 +16,7 @@ export default function PostJob() {
     <Button variant="primary" onClick={() => setModal2(true)}>
         Add Member Modal
     </Button>
-    <AddMemberModal show={modal1}
+    <AddMemberModal show={modal2}
       onHide={() => setModal2(false)}/>
 
     <PostJobModal

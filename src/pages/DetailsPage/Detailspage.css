@@ -1,0 +1,38 @@
+#detailspage1{
+    background-color: #0F1025;
+    color: white;
+    padding-top: 4rem;
+}
+#detailspage2{
+    display: flex;
+    flex-direction: row;
+}
+#detailspage3{
+    margin-left: 1rem;
+}
+#detailspage4{
+        margin-top: 0.6rem;
+        margin-bottom: 0.6rem;
+}
+#detailspage5{
+    margin-bottom: 3rem;
+}
+#detailspage6{
+    margin-bottom: 0.5rem;
+    margin-top: 1.5rem;
+}
+#detailspage7{
+    color: #FFEC5F;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Poppins';
+    margin-bottom: 1rem;
+}
+#detailspage8{
+    color: #FFEC5F;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Poppins';
+    margin-bottom: 0.5rem;
+    margin-top: 3rem;
+}

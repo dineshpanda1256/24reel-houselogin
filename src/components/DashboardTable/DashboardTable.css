@@ -6,15 +6,6 @@
   font-weight: 500;
 }
 
-td {
-  border: none;
-}
-th {
-  border: none;
-}
-tr {
-  border: none;
-}
 #dtable2 {
   overflow-x: auto;
   overflow-y: hidden;
@@ -30,4 +21,13 @@ tr {
 }
 #dtable5{
   margin-top: 1rem;
+}
+#dtable6{
+  background-color: white;
+  border-radius: 0.5rem;
+  margin-top: 2rem
+}
+
+#dtable7{
+  border: none;
 }

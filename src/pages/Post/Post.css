@@ -6,6 +6,7 @@
 }
 #postscreen2 {
   background-color: #f314a7;
+    border: none;
 }
 #postscreen3 {
   background-color: white;
@@ -23,16 +24,6 @@
     font-style: normal;
     font-weight: 500;
   }
-  
-  td {
-    border: none;
-  }
-  th {
-    border: none;
-  }
-  tr {
-    border: none;
-  }
   #post_table2 {
     overflow-x: auto;
     overflow-y: hidden;
@@ -48,6 +39,9 @@
   }
   #post_table5{
     background-color: #1931BB;
+    border: none;
+  }
+  #post_table6{
     border: none;
   }
   
