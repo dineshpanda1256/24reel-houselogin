@@ -1,0 +1,30 @@
+#nm{
+    font-family: 'Poppins';
+    text-align: left;
+    background-color: #1E1E1E;
+    height: 100vh;
+    padding: 2rem;
+    width: 100%;
+    overflow-x: auto;
+ 
+    
+}
+#item{
+    align-items: center;
+    font-family: poppins;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    border-color: none;
+    
+}
+#new{
+    color:black;
+    align-items: center;
+    line-height: 1.5rem;
+    border-color:  #ffffff;
+   
+}
+#bor{
+   
+    border-radius: none;
+}

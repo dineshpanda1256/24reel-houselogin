@@ -1,0 +1,25 @@
+#back{
+    background-color: #0F1025;
+    height: 100%;
+    width: 100%;
+}
+#btn{
+    background-color: blue;
+}
+#pro{
+font-family: Poppins;
+color: blue;
+margin-top: 2rem;
+}
+#pro1{
+    font-family: Poppins;
+}
+#name{
+    background-color: aliceblue;
+    
+}
+#data{
+    margin-left: 2.5rem;
+    padding: 0.9rem;
+    
+}
