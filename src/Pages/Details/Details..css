@@ -1,0 +1,12 @@
+#ReferancefornextMainRow {
+  background-color: #0f1025;
+  height: 100vh;
+  color: aliceblue;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+#whiteDiv {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}

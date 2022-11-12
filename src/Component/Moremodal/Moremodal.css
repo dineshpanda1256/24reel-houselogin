@@ -1,0 +1,16 @@
+#allLabelsTxtContactAddModal {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #D3D3D3;
+}
+
+#allInputFieldsTxtContactAddModal {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  color: #222222;
+}
