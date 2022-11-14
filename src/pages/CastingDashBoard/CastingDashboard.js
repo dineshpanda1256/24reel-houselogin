@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import { Button, Col, Container, Image, Row, Tab, Tabs } from "react-bootstrap";
+import { Button, Col, Container, Image, Row } from "react-bootstrap";
 import "./CastingDashboard.css";
-import CompanyLogo from "../../Assets/Images/Rectangle 39.png";
+import CompanyLogo from "../../Assets/Images/Rectangle39.png";
 import { BiCaretRight } from "react-icons/bi";
+import { AiTwotoneEdit } from "react-icons/ai";
 import MyDataCastingDashboard from "../../Components/MyDataCastingDashboard/MyDataCastingDashboard";
 import JobPortalCastingDashboard from "../../Components/JobPortalCastingDashboard/JobPortalCastingDashboard";
 
@@ -15,7 +16,10 @@ export default function CastingDashboard() {
         {/* company logo with name */}
         <Row id="row1CastingDashboard">
           <Col md={1} xs={4} id="companyLogoDiv">
-            <Image src={CompanyLogo} alt="Company Logo" id="companyLogoImg" />
+            <div>
+              <AiTwotoneEdit id="editIconOnLogoImg" />
+              <Image src={CompanyLogo} alt="Company Logo" id="companyLogoImg" />
+            </div>
           </Col>
           <Col md={4} xs={8} id="modelingAndCastingTxtDiv">
             Modeling & Casting Agency : yashraj Modeling
@@ -54,12 +58,10 @@ export default function CastingDashboard() {
           </Row>
         </Container>
 
-        <Container id="whiteDiv">
+        <Container>
           {clicked === "first" ? <MyDataCastingDashboard /> : " "}
           {clicked === "second" ? <JobPortalCastingDashboard /> : " "}
         </Container>
-
-
 
         {/* used react bootstrap tabs */}
         {/* <Container>

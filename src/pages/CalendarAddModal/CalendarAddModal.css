@@ -1,0 +1,43 @@
+/* modal */
+#closeIcon {
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #calendarAddModalHeader {
+    background: #0f1025;
+    display: flex;
+    justify-content: flex-end;
+    border: none;
+  }
+  
+  #calendarAddModalBody {
+      background: #0f1025;
+      color: #fff;
+      border: none;
+      padding-bottom: 2rem;
+  }
+  
+  #calendarAddModalFooter {
+      background: #0f1025;
+      color: #fff;
+      border: none;
+  }
+
+  #allLabelsTxtCalendarAddModal {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: #D3D3D3;
+  }
+  
+  #allInputFieldsTxtCalendarAddModal {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    color: #222222;
+  }

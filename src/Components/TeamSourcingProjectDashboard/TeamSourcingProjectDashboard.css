@@ -1,0 +1,43 @@
+#whiteDivTeamSourcing {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+#pendingRequest {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  /* line-height: 48px; */
+  color: #1931bb;
+  margin-bottom: 1rem;
+}
+
+#circleIcon {
+  font-size: 1.5rem;
+  color: #f112a5;
+}
+
+td {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9rem;
+  /* line-height: 1rem; */
+  color: #1931bb;
+}
+
+#buttons {
+  margin-right: 0.5rem;
+  width: 5rem;
+  margin-bottom: 0.2rem;
+  background-color: #1931bb;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  color: #ffffff;
+}

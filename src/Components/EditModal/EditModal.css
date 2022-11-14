@@ -1,0 +1,26 @@
+/* modal */
+#closeIcon {
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #editModalHeader {
+    background: #0f1025;
+    display: flex;
+    justify-content: flex-end;
+    border: none;
+  }
+  
+  #editModalBody {
+      background: #0f1025;
+      color: #fff;
+      border: none;
+      padding-bottom: 2rem;
+  }
+  
+  #editModalFooter {
+      background: #0f1025;
+      color: #fff;
+      border: none;
+  }

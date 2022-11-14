@@ -1,3 +1,11 @@
+#whiteDivCastingDashboard {
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  height: 100vh
+}
+
 #addIcon {
     font-size: 2rem;
     color: #f112a5;

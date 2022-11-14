@@ -1,6 +1,7 @@
 import React from "react";
-import { Button, Col, Form, Modal, Row } from "react-bootstrap";
+import { Button, Form, Modal} from "react-bootstrap";
 import './ContactAddModal.css';
+import { IoCloseSharp } from "react-icons/io5";
 
 export default function ContactAddModal() {
   const [modalShow, setModalShow] = React.useState(false);
@@ -14,14 +15,13 @@ export default function ContactAddModal() {
         centered
         style={{color: '#fefefe'}}
       >
-        <Modal.Header 
-        style={{backgroundColor: '#0F1025', color: '#fefefe'}}>
-          <Modal.Title id="contained-modal-title-vcenter">
-            Add Contact
-          </Modal.Title>
+        <Modal.Header id="contactAddModalHeader">
+          <IoCloseSharp
+            id="closeIcon"
+            onClick={props.onHide}
+          />
         </Modal.Header>
-        <Modal.Body 
-        style={{backgroundColor: '#0F1025'}}>
+        <Modal.Body id="contactAddModalBody">
           <Form>
             {/* contact name */}
             <Form.Group className=" mt-2 mb-3">
@@ -49,14 +49,14 @@ export default function ContactAddModal() {
                 Address
               </Form.Label>
               <Form.Control
-                type="text"
+                as="textarea"
                 id="allInputFieldsTxtContactAddModal"
+                rows="2"
               />
             </Form.Group>
           </Form>
         </Modal.Body>
-        <Modal.Footer 
-        style={{backgroundColor: '#0F1025'}}>
+        <Modal.Footer id="contactAddModalFooter">
           <Button onClick={props.onHide} style={{width: '100%', backgroundColor: '#1931BB'}}>Add</Button>
         </Modal.Footer>
       </Modal>
@@ -66,7 +66,7 @@ export default function ContactAddModal() {
   return (
     <>
       <Button variant="primary" onClick={() => setModalShow(true)}>
-        Launch vertically centered modal
+        ContactAddModal
       </Button>
 
       <MyVerticallyCenteredModal

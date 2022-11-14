@@ -14,3 +14,29 @@
     line-height: 1.5rem;
     color: #222222;
   }
+
+  #closeIcon {
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #contactAddModalHeader {
+    background: #0f1025;
+    display: flex;
+    justify-content: flex-end;
+    border: none;
+  }
+
+  #contactAddModalBody {
+    background: #0f1025;
+    color: #fff;
+    border: none;
+    padding-bottom: 2rem;
+}
+
+#contactAddModalFooter {
+    background: #0f1025;
+    color: #fff;
+    border: none;
+}

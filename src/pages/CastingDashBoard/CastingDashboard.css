@@ -1,7 +1,15 @@
 #mainContainer {
   background-color: #0f1025;
-  height: 100vh;
+  /* height: 100vh; */
   padding: 2rem 0rem;
+}
+
+#editIconOnLogoImg {
+  color: #fff;
+  font-size: 1rem;
+  position: absolute;
+  top: 20px;
+  left: 225px;
 }
 
 #companyLogoImg {
@@ -22,12 +30,12 @@
   color: #ffffff;
 }
 
-#whiteDiv {
+/* #whiteDiv {
   background-color: white;
   border-radius: 0.5rem;
   padding: 1rem;
   margin-top: 1rem;
-}
+} */
 
 #myDataBtn {
   width: 10rem;
